@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-cards/static/css/main.9ac92a33.css",
-    "main.js": "/react-cards/static/js/main.864be392.js",
-    "static/media/swetha-panikkan.jpg": "/react-cards/static/media/swetha-panikkan.8047bbd9da345a7b0b5a.jpg",
-    "index.html": "/react-cards/index.html",
-    "main.9ac92a33.css.map": "/react-cards/static/css/main.9ac92a33.css.map",
-    "main.864be392.js.map": "/react-cards/static/js/main.864be392.js.map"
+    "main.css": "/swetha-info/static/css/main.9ac92a33.css",
+    "main.js": "/swetha-info/static/js/main.c3b6acd3.js",
+    "static/media/swetha-panikkan.jpg": "/swetha-info/static/media/swetha-panikkan.8047bbd9da345a7b0b5a.jpg",
+    "index.html": "/swetha-info/index.html",
+    "main.9ac92a33.css.map": "/swetha-info/static/css/main.9ac92a33.css.map",
+    "main.c3b6acd3.js.map": "/swetha-info/static/js/main.c3b6acd3.js.map"
   },
   "entrypoints": [
     "static/css/main.9ac92a33.css",
-    "static/js/main.864be392.js"
+    "static/js/main.c3b6acd3.js"
   ]
 }
