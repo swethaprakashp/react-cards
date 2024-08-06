@@ -9,7 +9,7 @@ function App() {
   }
   const handleResume = () =>{
     const link = document.createElement('a');
-    link.href = '/resume.pdf';
+    link.href = 'https://swethaprakashp.github.io/swetha-info/resume.pdf';
     link.download = 'swethapanikkan-resume.pdf'
     link.click();
   }
