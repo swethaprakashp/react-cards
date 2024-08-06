@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/swetha-info/static/css/main.9ac92a33.css",
-    "main.js": "/swetha-info/static/js/main.c3b6acd3.js",
+    "main.js": "/swetha-info/static/js/main.d43df6f5.js",
     "static/media/swetha-panikkan.jpg": "/swetha-info/static/media/swetha-panikkan.8047bbd9da345a7b0b5a.jpg",
     "index.html": "/swetha-info/index.html",
     "main.9ac92a33.css.map": "/swetha-info/static/css/main.9ac92a33.css.map",
-    "main.c3b6acd3.js.map": "/swetha-info/static/js/main.c3b6acd3.js.map"
+    "main.d43df6f5.js.map": "/swetha-info/static/js/main.d43df6f5.js.map"
   },
   "entrypoints": [
     "static/css/main.9ac92a33.css",
-    "static/js/main.c3b6acd3.js"
+    "static/js/main.d43df6f5.js"
   ]
 }
