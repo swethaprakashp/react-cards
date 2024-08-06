@@ -8,4 +8,5 @@ section{
     );
     color: #fcfdfd;
     width: 100vw;
+    overflow: hidden;
 }

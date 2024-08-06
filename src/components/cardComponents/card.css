@@ -1,7 +1,6 @@
 .card {
   display: flex;
   align-items: center;
-  width: 75vw;
   max-width: 650px;
   padding: 50px 30px 50px 20px;
   background-color: #121017;
