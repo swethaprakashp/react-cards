@@ -1,12 +1,17 @@
 import './App.css';
 import Card from './components/cardComponents/card';
-import Img from '../src/assests/swetha.jpg'
+import Img from '../src/assests/swetha-panikkan.jpg';
+import { useState } from 'react';
 function App() {
-  const handleFollow = () => {
-    //follow function
+  const [like,setLike] = useState(false);
+  const handleLike = () => {
+    setLike(!like);
   }
-  const handleProfile = () =>{
-    //profile function
+  const handleResume = () =>{
+    const link = document.createElement('a');
+    link.href = '/resume.pdf';
+    link.download = 'swethapanikkan-resume.pdf'
+    link.click();
   }
   return (
     <div>
@@ -15,9 +20,10 @@ function App() {
       image={Img}
       title="Swetha Panikkan"
       subtitle="Full stack developer"
-      description="Experienced MERN stack developer with 2 years of hands-on experience in MongoDB, Express.js, React.js, and Node.js. Passionate about crafting efficient, scalable web applications, I thrive in dynamic environments where I can apply my skills to drive innovation. With a proven track record of delivering high-quality solutions, I am dedicated to continuous learning and growth in the ever-evolving field of web development. Let's connect and explore how we can collaborate!"
-      onProfile={handleProfile}
-      onFollow={handleFollow}
+      description="I'm Swetha Panikkan, a Computer Science postgraduate from Kerala, India. I'm a passionate full stack developer specializing in the MERN stack, with a keen interest in software development and mobile app development. I’m dedicated and constantly seeking new opportunities to grow. I’m a fast learner who thrives on expanding my knowledge and skills"
+      onResume={handleResume}
+      onLike={handleLike}
+      heart={like ? 'Thanks!!' : 'Like'}
      />
      </section>
     </div>

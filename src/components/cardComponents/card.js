@@ -1,8 +1,9 @@
 import React from 'react'
 import './card.css'
 const Card = ({
-  image, title, subtitle, description, onProfile, onFollow
+  image, title, subtitle, description, onResume, onLike, heart
 }) => {
+ 
   return (
     <div className='card'>
       <img src={image} alt='swetha' />
@@ -11,11 +12,11 @@ const Card = ({
         <h3>{subtitle}</h3>
         <p>{description}</p>
         <div className="buttons">
-          <button onClick={onProfile}>
-            Profile
+          <button onClick={onResume}>
+            Resume
           </button>
-          <button onClick={onFollow} className='primary'>
-            Follow
+          <button onClick={onLike} className='primary'>
+            {heart}
           </button>
         </div>
       </div>
